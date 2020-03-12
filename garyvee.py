@@ -96,25 +96,13 @@ class GaryVee:
         comment_input().send_keys(Keys.RETURN)
 
     def like(self):
-        like_button = lambda: self.browser.find_element_by_xpath('//span[@class="glyphsSpriteHeart__outline__24__grey_9 u-__7"]')
+        like_button = lambda: self.browser.find_element_by_class_name('wpO6b ')
         like_button().click()
 
     def finalize(self):
-        print 'You gave $' + string(self.price) + ' back to the community.'
         self.browser.close()
+        print("finished sucessfully")
         sys.exit()
 
 garyVee = GaryVee()
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -3,14 +3,30 @@ from selenium.webdriver.common.keys import Keys
 import random
 import sys
 import time
+from flask import Flask, render_template
+from flask_socketio import SocketIO, emit
+    
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret!'
+socketio = SocketIO(app)
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@socketio.on('my event')
+def test_message(message):
+    emit('my response', {'data': 'got it!'})
 class GaryVee:
     username = 'garyveedollareighty'
     password = 'dollareighty'
-
+    people = []
+    likes = []
+    comments = []
+    current_followers = []
     hashtags = [
-        'wanderlust', 'travels', 'travel', 'explore', 'exploring', 
-        'vacation', 'adventure', 'holiday', 'holidays', 'instatravel',
+        'elkhart', 'elkahrtindiana', 'elkhartcounty', 'elkhartcounty4hfair', 'elkhartcountyparks', 
+        'downtownelkhart', 'elkhartartwalk', 'elkhartcountyhistory', 'elkharteats', 'elkhartphotographystudio',
     ]
 
     comments = [
@@ -59,6 +75,7 @@ class GaryVee:
             links = self.browser.find_elements_by_tag_name('a')
             condition = lambda link: '.com/p/' in link.get_attribute('href')
             valid_links = list(filter(condition, links))
+            
 
             for i in range(0, 9):
                 link = valid_links[i].get_attribute('href')
@@ -96,21 +113,21 @@ class GaryVee:
         comment_input().send_keys(Keys.RETURN)
 
     def like(self):
-        like_button = lambda: self.browser.find_element_by_xpath('//span[@class="glyphsSpriteHeart__outline__24__grey_9 u-__7"]')
+        like_button = lambda: self.browser.find_element_by_class_name('wpO6b ')
         like_button().click()
-
+    def post_server(self):
+        pass
     def finalize(self):
-        print 'You gave $' + string(self.price) + ' back to the community.'
         self.browser.close()
+        print("finished sucessfully")
+        
         sys.exit()
 
-garyVee = GaryVee()
+if __name__ == '__main__':
+    socketio.run(app)
+    garyVee = GaryVee()
 
-
-
-
-
-
+© 2020 GitHub, Inc.
 
 
 

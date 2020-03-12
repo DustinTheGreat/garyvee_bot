@@ -71,6 +71,7 @@ class GaryVee:
             links = self.browser.find_elements_by_tag_name('a')
             condition = lambda link: '.com/p/' in link.get_attribute('href')
             valid_links = list(filter(condition, links))
+            
 
             for i in range(0, 9):
                 link = valid_links[i].get_attribute('href')
@@ -110,10 +111,12 @@ class GaryVee:
     def like(self):
         like_button = lambda: self.browser.find_element_by_class_name('wpO6b ')
         like_button().click()
-
+    def post_server(self):
+        pass
     def finalize(self):
         self.browser.close()
         print("finished sucessfully")
+        
         sys.exit()
 
 if __name__ == '__main__':

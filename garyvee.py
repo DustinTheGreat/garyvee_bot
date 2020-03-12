@@ -3,11 +3,23 @@ from selenium.webdriver.common.keys import Keys
 import random
 import sys
 import time
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello():
+    return "Hello World!"
+
 
 class GaryVee:
     username = 'garyveedollareighty'
     password = 'dollareighty'
-
+    people = []
+    likes = []
+    comments = []
+    current_followers = []
     hashtags = [
         'elkhart', 'elkahrtindiana', 'elkhartcounty', 'elkhartcounty4hfair', 'elkhartcountyparks', 
         'downtownelkhart', 'elkhartartwalk', 'elkhartcountyhistory', 'elkharteats', 'elkhartphotographystudio',
@@ -104,6 +116,8 @@ class GaryVee:
         print("finished sucessfully")
         sys.exit()
 
-garyVee = GaryVee()
+if __name__ == '__main__':
+    app.run()
+    garyVee = GaryVee()
 
 

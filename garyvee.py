@@ -9,8 +9,8 @@ class GaryVee:
     password = 'dollareighty'
 
     hashtags = [
-        'wanderlust', 'travels', 'travel', 'explore', 'exploring', 
-        'vacation', 'adventure', 'holiday', 'holidays', 'instatravel',
+        'elkhart', 'elkahrtindiana', 'elkhartcounty', 'elkhartcounty4hfair', 'elkhartcountyparks', 
+        'downtownelkhart', 'elkhartartwalk', 'elkhartcountyhistory', 'elkharteats', 'elkhartphotographystudio',
     ]
 
     comments = [
@@ -105,4 +105,5 @@ class GaryVee:
         sys.exit()
 
 garyVee = GaryVee()
+
 

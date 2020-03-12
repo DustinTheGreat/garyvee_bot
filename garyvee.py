@@ -3,16 +3,20 @@ from selenium.webdriver.common.keys import Keys
 import random
 import sys
 import time
-from flask import Flask
-
+from flask import Flask, render_template
+from flask_socketio import SocketIO, emit
+    
 app = Flask(__name__)
-
+app.config['SECRET_KEY'] = 'secret!'
+socketio = SocketIO(app)
 
 @app.route('/')
-def hello():
-    return "Hello World!"
+def index():
+    return render_template('index.html')
 
-
+@socketio.on('my event')
+def test_message(message):
+    emit('my response', {'data': 'got it!'})
 class GaryVee:
     username = 'garyveedollareighty'
     password = 'dollareighty'
@@ -120,7 +124,7 @@ class GaryVee:
         sys.exit()
 
 if __name__ == '__main__':
-    app.run()
+    socketio.run(app)
     garyVee = GaryVee()
 
 

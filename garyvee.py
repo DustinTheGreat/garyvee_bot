@@ -5,9 +5,9 @@ import sys
 import time
 
 class GaryVee:
-    username = 'garyveedollareighty'
-    password = 'dollareighty'
-
+    username = 'grizzlytreeservice'
+    password = 'Cheerup22!'
+    links = []
     hashtags = [
         'elkhart', 'elkahrtindiana', 'elkhartcounty', 'elkhartcounty4hfair', 'elkhartcountyparks', 
         'downtownelkhart', 'elkhartartwalk', 'elkhartcountyhistory', 'elkharteats', 'elkhartphotographystudio',
@@ -19,12 +19,11 @@ class GaryVee:
         'What a really nice photo, great job!', 'Well done!', 'Your posts are amazing',
     ]
 
-    links = []
 
     price = 0.0
 
     def __init__(self):
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Firefox(executable_path="./geckodriver")
         self.login()
         self.hustle()
 
@@ -54,16 +53,19 @@ class GaryVee:
     def getTopPosts(self):
         for hashtag in self.hashtags:
             self.browser.get('https://www.instagram.com/explore/tags/' + hashtag +'/')
-            time.sleep(2)
+            time.sleep(5)
 
             links = self.browser.find_elements_by_tag_name('a')
             condition = lambda link: '.com/p/' in link.get_attribute('href')
             valid_links = list(filter(condition, links))
-
-            for i in range(0, 9):
-                link = valid_links[i].get_attribute('href')
-                if link not in self.links:
-                    self.links.append(link)
+            
+            try:
+                 for i in range(0, 9):
+                    link = valid_links[i].get_attribute('href')
+                    if link not in self.links:
+                        self.links.append(link)
+            except:
+                pass
 
     def execute(self):
         for link in self.links:
@@ -84,6 +86,7 @@ class GaryVee:
 
     def comment(self):
         comment_input = lambda: self.browser.find_element_by_tag_name('textarea')
+        time.sleep(2)
         comment_input().click()
         comment_input().clear()
 
@@ -98,12 +101,15 @@ class GaryVee:
     def like(self):
         like_button = lambda: self.browser.find_element_by_class_name('wpO6b ')
         like_button().click()
-
+    def post_server(self):
+        pass
     def finalize(self):
         self.browser.close()
         print("finished sucessfully")
+        print(self.links)
         sys.exit()
 
-garyVee = GaryVee()
 
+if __name__ == '__main__':
+    garyVee = GaryVee()
 

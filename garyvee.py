@@ -3,8 +3,18 @@ from selenium.webdriver.common.keys import Keys
 import random
 import sys
 import time
+import pickle
+import sqlite3
+import datetime
 
+
+th= []
 class GaryVee:
+    conn = sqlite3.connect('instagram.db')
+
+    c = conn.cursor()
+
+
     username = 'grizzlytreeservice'
     password = 'Cheerup22!'
     links = []
@@ -24,6 +34,8 @@ class GaryVee:
 
     def __init__(self):
         self.browser = webdriver.Firefox(executable_path="./geckodriver")
+        #self.check()
+
         self.login()
         self.hustle()
 
@@ -47,6 +59,7 @@ class GaryVee:
 
     def hustle(self):
         self.getTopPosts()
+        #self.getNewHash()
         self.execute()
         self.finalize()
 
@@ -58,27 +71,30 @@ class GaryVee:
             links = self.browser.find_elements_by_tag_name('a')
             condition = lambda link: '.com/p/' in link.get_attribute('href')
             valid_links = list(filter(condition, links))
-            
+
             try:
                  for i in range(0, 9):
                     link = valid_links[i].get_attribute('href')
                     if link not in self.links:
                         self.links.append(link)
+                       
             except:
                 pass
 
     def execute(self):
         for link in self.links:
             self.browser.get(link)
+            self.c.execute("INSERT INTO users VALUES ('2006-01-05',?,'RHAT')", link)
+
             time.sleep(1)
 
             self.browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(1)
             
-            self.comment()
+            #self.comment()
             time.sleep(2)
             
-            self.like()
+            #self.like()
 
             self.price += 0.02
             sleeptime = random.randint(18, 28)
@@ -107,9 +123,19 @@ class GaryVee:
         self.browser.close()
         print("finished sucessfully")
         print(self.links)
+        self.conn.commit()
+        self.conn.close()
+
+
         sys.exit()
+
+    def getNewHash(self):
+        #new_hash = self.browser.find_elements_by_tag_name('a')
+        hashes = self.browser.find_elements_by_class_name('xil3i')
+        condition = lambda link: 'explore' in link.get_attribute('href')
+        valid_links = list(filter(condition, links))
+        th.append(valid_links)
 
 
 if __name__ == '__main__':
     garyVee = GaryVee()
-

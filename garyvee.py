@@ -3,14 +3,13 @@ from selenium.webdriver.common.keys import Keys
 import random
 import sys
 import time
-import pickle
 import sqlite3
 import datetime
-
+import re
 
 th= []
 class GaryVee:
-    conn = sqlite3.connect('instagram.db')
+    conn = sqlite3.connect('instagram2.db')
 
     c = conn.cursor()
 
@@ -18,10 +17,8 @@ class GaryVee:
     username = 'grizzlytreeservice'
     password = 'Cheerup22!'
     links = []
-    hashtags = [
-        'elkhart', 'elkahrtindiana', 'elkhartcounty', 'elkhartcounty4hfair', 'elkhartcountyparks', 
-        'downtownelkhart', 'elkhartartwalk', 'elkhartcountyhistory', 'elkharteats', 'elkhartphotographystudio',
-    ]
+    hashtags = ['elkhart']
+ 
 
     comments = [
         'Your posts are amazing', 'Amazing work. Keep going!', 'Your photos are magnificent',
@@ -71,12 +68,20 @@ class GaryVee:
             links = self.browser.find_elements_by_tag_name('a')
             condition = lambda link: '.com/p/' in link.get_attribute('href')
             valid_links = list(filter(condition, links))
-
+            #try is for when page has less than 10 post
             try:
                  for i in range(0, 9):
                     link = valid_links[i].get_attribute('href')
-                    if link not in self.links:
-                        self.links.append(link)
+                    g = self.conn.execute("SELECT url from vistedlinks")
+                    for ccc in g:
+
+                       
+                        if str(ccc[0]) == str(link):
+                            print("*************already liked post************")
+                            pass
+                        else:
+                            if link not in self.links:
+                                self.links.append(link)
                        
             except:
                 pass
@@ -84,9 +89,9 @@ class GaryVee:
     def execute(self):
         for link in self.links:
             self.browser.get(link)
-            self.c.execute("INSERT INTO users VALUES ('2006-01-05',?,'RHAT')", link)
-
+            
             time.sleep(1)
+        
 
             self.browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(1)
@@ -122,20 +127,24 @@ class GaryVee:
     def finalize(self):
         self.browser.close()
         print("finished sucessfully")
-        print(self.links)
-        self.conn.commit()
+        for llinks in self.links:
+            self.c.execute('INSERT INTO vistedlinks VALUES (?,?)', [('2006-03-28'),(llinks)])
+            self.conn.commit()
         self.conn.close()
 
 
         sys.exit()
 
-    def getNewHash(self):
+    '''def getNewHash(self):
+        keywords = ['elkhart', 'goshen', 'granger', 'southbend', 'mishawka', 'indiana', 'saintjoe']
         #new_hash = self.browser.find_elements_by_tag_name('a')
         hashes = self.browser.find_elements_by_class_name('xil3i')
         condition = lambda link: 'explore' in link.get_attribute('href')
         valid_links = list(filter(condition, links))
         th.append(valid_links)
-
-
+        c = conn.execute("SELECT date, trans, symbol from users")
+        for cc in c:
+            if cc ==
+            '''
 if __name__ == '__main__':
     garyVee = GaryVee()

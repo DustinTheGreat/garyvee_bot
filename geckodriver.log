@@ -157,3 +157,549 @@ JavaScript error: resource:///modules/SearchTelemetry.jsm, line 658: TypeError: 
 JavaScript error: resource:///modules/SearchTelemetry.jsm, line 658: TypeError: channel.loadInfo is null
 JavaScript error: resource:///modules/SearchTelemetry.jsm, line 658: TypeError: channel.loadInfo is null
 JavaScript error: , line 0: uncaught exception: Object
+1584659843935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejWiCD0"
+1584659844590	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584659846085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584659846086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584659846086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584659846086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584659848511	Marionette	INFO	Listening on port 36143
+1584659848561	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584659855032	Marionette	INFO	Stopped listening on port 34693
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584660166985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAiuMqe"
+1584660167697	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584660169314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584660169314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584660169314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584660169315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584660171765	Marionette	INFO	Listening on port 45563
+1584660171810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.0/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A, line 261: Error: Script terminated by timeout at:
+s_4e@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:261:262
+s_ah@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:430:433
+s_JQg@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A/m=DGEKAc,EPszLb,F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,Wq6lxf,XMgU6d,XjCeUc,ZDfS0b,a3mDic,aCZVp,aa,aam1T,abd,alc,aspn,async,bgd,clc,dvl,eN4qad,exdc,flum,foot,fwci,fwtm,kyn,lazG7b,lii,llb,lli,lr,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,safc,sb_wiz,sf,tl,trex,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:405:63
+s_$Qg@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A/m=DGEKAc,EPszLb,F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,Wq6lxf,XMgU6d,XjCeUc,ZDfS0b,a3mDic,aCZVp,aa,aam1T,abd,alc,aspn,async,bgd,clc,dvl,eN4qad,exdc,flum,foot,fwci,fwtm,kyn,lazG7b,lii,llb,lli,lr,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,safc,sb_wiz,sf,tl,trex,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:438:176
+s_aRg.prototype.wb@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A/m=DGEKAc,EPszLb,F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,Wq6lxf,XMgU6d,XjCeUc,ZDfS0b,a3mDic,aCZVp,aa,aam1T,abd,alc,aspn,async,bgd,clc,dvl,eN4qad,exdc,flum,foot,fwci,fwtm,kyn,lazG7b,lii,llb,lli,lr,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,safc,sb_wiz,sf,tl,trex,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:439:126
+s_a.s2@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:416:210
+s_a.dispatchEvent@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:414:385
+s_q0.prototype.Da@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A/m=DGEKAc,EPszLb,F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,Wq6lxf,XMgU6d,XjCeUc,ZDfS0b,a3mDic,aCZVp,aa,aam1T,abd,alc,aspn,async,bgd,clc,dvl,eN4qad,exdc,flum,foot,fwci,fwtm,kyn,lazG7b,lii,llb,lli,lr,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,safc,sb_wiz,sf,tl,trex,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:411:288
+s_nia@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:336:243
+s_lia@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:337:249
+s_jia/b<@https://www.google.com/xjs/_/js/k=xjs.s.en_US.gqts5N-FPAI.O/ck=xjs.s.OthEjD6udMA.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAACwBmHUDwPkfBIB3oYwDAAAB2gg2FkiBhIQABLDCAggI/d=1/dg=2/ct=zgms/rs=ACT90oHE2Zlx1L1teXp5NaXXLXmYCXIp5A:333:277
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1584663633712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5oKvu9"
+1584663634383	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584663636013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584663636013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584663636013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584663636013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584663638354	Marionette	INFO	Listening on port 37575
+1584663638428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584663682428	Marionette	INFO	Stopped listening on port 37575
+1584663720428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesw02Vz"
+1584663721092	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584663722851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584663722851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584663722852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584663722852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584663725265	Marionette	INFO	Listening on port 40037
+1584663725342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584663745549	Marionette	INFO	Stopped listening on port 40037
+1584663785206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFoFm56"
+1584663785891	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584663787395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584663787396	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584663787396	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584663787396	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584663789761	Marionette	INFO	Listening on port 39967
+1584663789818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584663810489	Marionette	INFO	Stopped listening on port 39967
+1584663875171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezNF6zV"
+1584663875842	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584663877501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584663877501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584663877501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584663877501	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584663879851	Marionette	INFO	Listening on port 35603
+1584663879886	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584663900462	Marionette	INFO	Stopped listening on port 35603
+1584663936803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUSnqZq"
+1584663937468	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584663938940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584663938940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584663938940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584663938940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584663941264	Marionette	INFO	Listening on port 42269
+1584663941316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: [object Event]
+1584663962532	Marionette	INFO	Stopped listening on port 42269
+1584664006128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledtou7f"
+1584664006809	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584664008336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584664008336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584664008336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584664008336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584664012006	Marionette	INFO	Listening on port 37029
+1584664012046	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584664032874	Marionette	INFO	Stopped listening on port 37029
+1584664172496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNKWF3s"
+1584664173170	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584664174738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584664174738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584664174738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584664174738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584664177078	Marionette	INFO	Listening on port 38627
+1584664177113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584664196820	Marionette	INFO	Stopped listening on port 38627
+1584664231464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQzInMo"
+1584664232136	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584664233641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584664233642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584664233642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584664233642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584664235961	Marionette	INFO	Listening on port 33329
+1584664235984	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1584664255392	Marionette	INFO	Stopped listening on port 33329
+1584664302636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMw0eA0"
+1584664303295	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584664304800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584664304800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584664304800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584664304801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584664307085	Marionette	INFO	Listening on port 41677
+1584664307149	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+1584664538635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepZ6hdm"
+1584664539307	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584664540829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584664540830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584664540830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584664540830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584664543723	Marionette	INFO	Listening on port 46709
+1584664543753	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.0/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+1584664632242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0yHLAS"
+1584664632936	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584664634489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584664634489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584664634489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584664634490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584664637465	Marionette	INFO	Listening on port 35723
+1584664637560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584664649466	Marionette	INFO	Stopped listening on port 46709
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584664902419	Marionette	INFO	Stopped listening on port 35723
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.0/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://imasdk.googleapis.com/formats/outstream/versioned/prod/outstream_web_client_20200316_RC00/outstream.min.js, line 530: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398861: Request failed
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript warning: https://imasdk.googleapis.com/formats/outstream/versioned/prod/outstream_web_client_20200316_RC00/outstream.min.js, line 530: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 2152398861: Request failed
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://ap.lijit.com/www/sovrn_beacon_standalone/sovrn_standalone_beacon.js?iid=13414817, line 3: TypeError: sovrn.auction.sovrnReady is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.0/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: SyntaxError: unexpected token: identifier
+JavaScript error: https://cdn.flashtalking.com/pageFold/ftpagefold_v4.7.2.js, line 1: TypeError: b.parent is null
+JavaScript error: https://cdn.flashtalking.com/pageFold/ftpagefold_v4.7.2.js, line 1: TypeError: b.parent is null
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://vidstat.taboola.com/vpaid/vPlayer/player/v11.1.1/OvaMediaPlayer.js, line 28: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html line 45 > scriptElement, line 4: SecurityError: Permission denied to access property "cmTag" on cross-origin object
+JavaScript error: https://cdn.flashtalking.com/pageFold/ftpagefold_v4.7.2.js, line 1: TypeError: b.parent is null
+JavaScript error: https://cdn.flashtalking.com/pageFold/ftpagefold_v4.7.2.js, line 1: TypeError: b.parent is null
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584666170568	Marionette	INFO	Stopped listening on port 45563
+1584671343965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyu2R30"
+1584671344771	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584671346584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584671346585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584671346585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584671346585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584671349273	Marionette	INFO	Listening on port 33173
+1584671349294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584671633537	Marionette	INFO	Stopped listening on port 33173
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584671737229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledhwtUP"
+1584671738421	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584671740742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584671740742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584671740743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584671740743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584671745279	Marionette	INFO	Listening on port 42305
+1584671745362	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584672045124	Marionette	INFO	Stopped listening on port 42305
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1584672231141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3AuYOW"
+1584672232054	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584672233799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584672233800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584672233800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584672233800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584672237175	Marionette	INFO	Listening on port 38413
+1584672237266	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584672440846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek32jtH"
+1584672441541	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584672443211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584672443211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584672443211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584672443211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584672445631	Marionette	INFO	Listening on port 32911
+1584672445670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584672549971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep5ji3O"
+1584672550707	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584672552453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584672552453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584672552453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584672552454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584672554865	Marionette	INFO	Listening on port 45561
+1584672554886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584672832004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHLCyZo"
+1584672832867	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584672834630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584672834630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584672834630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584672834630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584672837640	Marionette	INFO	Listening on port 44429
+1584672837718	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584673088324	Marionette	INFO	Stopped listening on port 44429
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584673149458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0I7pV7"
+1584673150280	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584673151926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584673151926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584673151926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584673151926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584673154950	Marionette	INFO	Listening on port 35509
+1584673154981	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584673410919	Marionette	INFO	Stopped listening on port 35509
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584673536713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevLiglq"
+1584673537501	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584673539176	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584673539176	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584673539177	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584673539177	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584673542837	Marionette	INFO	Listening on port 35113
+1584673542933	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584673949657	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKZs4Sx"
+1584673950495	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584673952275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584673952275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584673952275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584673952275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584673955370	Marionette	INFO	Listening on port 35983
+1584673955396	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584673966386	Marionette	INFO	Stopped listening on port 35113
+1584674196739	Marionette	INFO	Stopped listening on port 35983
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584674487718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1GFNVh"
+1584674488518	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584674490138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584674490138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584674490139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584674490139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584674493085	Marionette	INFO	Listening on port 38411
+1584674493146	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584675277636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile791Hn1"
+1584675278394	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584675280034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584675280035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584675280035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584675280035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584675282697	Marionette	INFO	Listening on port 42061
+1584675282753	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584675529983	Marionette	INFO	Stopped listening on port 42061
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1584676167279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegEUMoj"
+1584676167979	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584676169664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584676169665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584676169665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584676169665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584676172206	Marionette	INFO	Listening on port 43759
+1584676172298	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584676465295	Marionette	INFO	Stopped listening on port 43759
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
